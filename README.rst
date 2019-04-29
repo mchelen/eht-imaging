@@ -25,6 +25,18 @@ It should install most of the required libraries automatically (`astropy <http:/
 
 Alternatively, first install NFFT manually following the instructions on the `readme <https://github.com/NFFT/nfft>`_, making sure to use the ``--enable-openmp`` flag in compilation. Then install `pynfft <https://github.com/ghisvail/pyNFFT/>`_, with pip, following the readme instructions to link the installation to where you installed NFFT. Finally, reinstall ehtim.
 
+
+Docker
+------
+
+To build and run the code inside of a Docker container:
+
+.. code-block:: bash
+
+    docker-compose run --rm eht-imaging
+
+
+
 Documentation
 -------------
 Documentation is  `here <https://achael.github.io/eht-imaging>`_ .
